@@ -136,6 +136,8 @@ p {
 }
 /* Секція Герой */
 .hero {
+  max-width: 1600px;
+  margin: 0 auto;
   background-color: var(--secondary-bgd-color);
   background-image: linear-gradient(
       to right,
@@ -269,8 +271,7 @@ p {
 
 .team-icon {
   display: flex;
-
-  padding: 0 32px;
+  justify-content: center;
   gap: 10px;
 }
 .link-icon {
@@ -371,7 +372,7 @@ address {
   font-style: normal;
 }
 
-.join-p {
+.join-title {
   text-transform: uppercase;
   color: var(--bgd-color);
   font-weight: 700;
